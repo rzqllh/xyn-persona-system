@@ -1,10 +1,10 @@
 # XYN — Multi-Agent Persona & Orchestration
 
-**Release candidate:** `v2.0.0-rc1` | **21 identities** | **4 adapter targets** | **Not yet production-validated**
+**Published source prerelease:** [`v2.0.0-rc1`](https://github.com/rzqllh/xyn-persona-system/releases/tag/v2.0.0-rc1) | **21 identities** | **4 adapter targets** | **Not yet production-validated**
 
 XYN is an example architecture for a single AI controller (Ritsuka Xyn / Quinella) coordinating twenty specialist personas. Each specialist has an individually authored SOUL, STYLE, character-influence interpretation and explicit domain ROLE, with deterministic target adapters for Hermes Agent, Antigravity CLI / IDE and Codex.
 
-This release candidate is intended for source review, learning and staged validation. It is **not** evidence of native subagent operation, live QA execution, successful deployment or publication on GitHub.
+This release candidate is intended for source review, learning and staged validation. The source prerelease was published on GitHub on 2026-10-30. Publication is **not** evidence of native subagent operation, live QA execution, successful deployment, or production readiness.
 
 ## How v2.0 works
 
