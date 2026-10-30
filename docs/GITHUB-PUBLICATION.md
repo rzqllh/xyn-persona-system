@@ -1,3 +1,5 @@
+> **Post-publication update (2026-10-30):** The [public repository](https://github.com/rzqllh/xyn-persona-system) and [v2.0.0-rc1 prerelease](https://github.com/rzqllh/xyn-persona-system/releases/tag/v2.0.0-rc1) now exist. GitHub Actions [static validation](https://github.com/rzqllh/xyn-persona-system/actions/runs/41029038324) succeeded on commit `0b29c05740f80b19e43ad68a9bc75454deb99911`. The original instructions below document the one-time bootstrap procedure, **not** a command to rerun against the published repository. The independent security review and runtime acceptance gates remain open.
+
 # GitHub publication — XYN v2.0.0-rc1
 
 **Owner-approved GitHub location:** `rzqllh/xyn-persona-system` (new public repository). **License:** MIT. **Publishable label:** source prerelease `v2.0.0-rc1` only. Stable `v2.0.0` remains blocked on runtime and rollback evidence.
