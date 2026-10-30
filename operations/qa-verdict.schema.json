@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "XYN Mandatory Rinne QA Verdict",
+  "type": "object",
+  "required": [
+    "task_id",
+    "qa_agent",
+    "contributions"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "qa_agent": {
+      "const": "xyn-13-test"
+    },
+    "contributions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "specialist_id",
+          "verdict",
+          "evidence_checked"
+        ],
+        "properties": {
+          "specialist_id": {
+            "type": "string"
+          },
+          "verdict": {
+            "enum": [
+              "PASS",
+              "PASS_WITH_LIMITATIONS",
+              "FAIL",
+              "BLOCKED",
+              "NOT_TESTED"
+            ]
+          },
+          "evidence_checked": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

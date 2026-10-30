@@ -1,0 +1,25 @@
+# Never include live environment or private state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*token*
+**/MEMORY.md
+**/memory/
+**/secrets/
+**/auth.json
+**/config.yaml
+**/.venv/
+**/__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+*.bak
+*.backup
+*.zip
+*.report.json
+*.local.*
+.legacy/
+.build/
+.DS_Store
